@@ -1,0 +1,22 @@
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
